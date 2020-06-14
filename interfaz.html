@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <title>Peliculas</title>
+</head>
+<body>
+        <h1>
+            Registro de Películas
+        </h1>
+    
+    <div id="App" class="container">
+            <div class="form-group">
+                <label for="txtId">ID: </label>
+                <input type="text" id="txtId"/>
+            </div>
+            <div class="form-group">
+                <label for="txtNombre">Nombre: </label>
+                <input type="text" id="txtNombre" />
+            </div>
+            <div class="form-group">
+                <label for="txtDirector">Director: </label>
+                <input type="text" id="txtDirector"/>
+            </div>
+            <div class="form-group">
+                <label for="txtAño">Año: </label>
+                <input type="number" id="txtAño" min="1920" max="2020"/>
+            </div>
+            <div class="form-group">
+                <label for="txtCalificacion">Calificación: </label>
+                <input type="range" min="0" max="10" id="txtCalificacion"/>
+            </div>
+       <div class="form-group">
+           <button id="btnAgregar" type="button" class="btn btn-primary">Agregar película</button>
+           <button id="btnMostrar" type="button" class="btn btn-success">Mostrar películas</button>
+           <button id="btnActualizar" type="button" class="btn btn-warning">Actualizar película</button>
+           <button id="btnEliminar" type="button" class="btn btn-danger">Eliminar película</button>
+       </div> 
+    </div>
+     <div id="details"></div>
+    <script src="/public/ajax.js"></script>
+</body>
+</html>
