@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nombre": "kiki entregas a domicilio",
+        "director": "Hayao Miyazaki",
+        "año": "1989",
+        "calificacion": "7"
+    },
+    {
+    "id": 2,
+        "nombre": "El cadaver de la novia",
+        "apellido": "Tim Burton",
+        "carrera": "2005",
+        "calificacion": "8"
+    }
+]
